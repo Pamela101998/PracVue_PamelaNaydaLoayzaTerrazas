@@ -1,11 +1,11 @@
 <template>
     <div class="navbar">
-        <div class="logo">MiLogo</div>
+        <div class="logo">Farmacia</div>
         <div style="font-size: 14px; font-weight: 100;" v-if="isLoged">
             {{ getUser['role'] }} \ {{ getUser['name'] }} <button @click="salir()">Salir</button>
         </div>    
         <div style="font-size: 14px; font-weight: 100;" v-if="!isLoged">
-            <button @click="login()">Iniciar sesion</button>
+            <button class="button" @click="login()">Iniciar sesion</button>
         </div>    
         <div class="menu">
             <slot></slot>
@@ -43,7 +43,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #35d7c7;
+    background-color: #eeb4a1;
     padding: 10px 20px;
     color: white;
     position: fixed;

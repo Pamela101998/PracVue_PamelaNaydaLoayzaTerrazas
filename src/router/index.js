@@ -27,6 +27,7 @@ const routes = [
     component: InventarioView,
     meta: { requiresAuth: true, role: ['administrador','farmaceutico','cajero'] } 
   },
+
   {
     path: '/medicamento',
     name: 'medicamento',

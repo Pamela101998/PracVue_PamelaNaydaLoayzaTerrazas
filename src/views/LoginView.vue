@@ -1,4 +1,5 @@
 <template>
+    
     <div class="login-container" style="margin-top: 100px">
         
         <form @submit.prevent="handleLogin">
@@ -18,6 +19,7 @@
             <button type="submit">Login</button>
         </form>
     </div>
+
 </template>
   
 <script>
@@ -49,7 +51,7 @@ export default {
             console.log('handleLogin');
             const vm = this;
             localStorage.removeItem('user');
-            this.axios.get(this.getBaseUrl + "/usuarios?email=" + this.email)
+            this.axios.get(this.getBaseUrl + "/usuario?email=" + this.email)
                 .then(function (response) {
                     if(response.data.length === 0){
                         vm.$toast.show("Email o password no valido", "danger");
@@ -76,9 +78,18 @@ export default {
     border: 1px solid #14df3d;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #33393c; /* Color de fondo */
+  color: white; /* Color del texto para contraste */
+  padding: 20px; /* Espaciado interno */
+  border-radius: 8px; 
+
 }
 
-
+body {
+  background-color: #5cf4b5; /* Color de fondo para todo el documento */
+  margin: 0; /* Elimina márgenes por defecto */
+  font-family: Arial, sans-serif; /* Tipografía para el documento */
+}
 
 .form-group {
     margin-bottom: 15px;
