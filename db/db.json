@@ -1,0 +1,281 @@
+{
+  "medicamento": [
+    {
+      "id": "1",
+      "Nombre del medicamento": "etamol 500mg",
+      "Descripción": "Analgésico y antipirético para el alivio del dolor leve a moderado y la fiebre.",
+      "Categoría": "Analgésico",
+      "Composición": "Paracetamol",
+      "Concentración": "500 mg",
+      "Presentación": "Tabletas",
+      "Dosis recomendada": "1-2 tabletas cada 4-6 horas, máximo 8 tabletas al día.",
+      "Precio de venta": "3.50",
+      "Stock disponible": "200 unidades",
+      "Fecha de caducidad": "15/08/2025",
+      "ID del Proveedor": "PROV001",
+      "Código de barras": "1234567890123",
+      "Requiere receta médica": "No"
+    },
+    {
+      "id": "2",
+      "Nombre del medicamento": "cilina 500mg",
+      "Descripción": "Antibiótico de amplio espectro utilizado para tratar infecciones bacterianas.",
+      "Categoría": "Antibiótico",
+      "Composición": "Amoxicilina",
+      "Concentración": "500 mg",
+      "Presentación": "Cápsulas",
+      "Dosis recomendada": "1 cápsula cada 8 horas durante 7-10 días.",
+      "Precio de venta": "$12.00",
+      "Stock disponible": "150 unidades",
+      "Fecha de caducidad": "10/12/2024",
+      "ID del Proveedor": "PROV002",
+      "Código de barras": "9876543210987",
+      "Requiere receta médica": "Sí"
+    },
+    {
+      "id": "3",
+      "Nombre del medicamento": "ofeno 200mg",
+      "Descripción": "Antiinflamatorio no esteroideo para el alivio del dolor, la fiebre y la inflamación.",
+      "Categoría": "Antiinflamatorio",
+      "Composición": "Ibuprofeno",
+      "Concentración": "200 mg",
+      "Presentación": "Tabletas",
+      "Dosis recomendada": "1-2 tabletas cada 4-6 horas, máximo 6 tabletas al día.",
+      "Precio de venta": "$5.00",
+      "Stock disponible": "300 unidades",
+      "Fecha de caducidad": "01/03/2025",
+      "ID del Proveedor": "PROV003",
+      "Código de barras": "5647382910472",
+      "Requiere receta médica": "No"
+    },
+    {
+      "id": "4",
+      "Nombre del medicamento": "izina 10mg",
+      "Descripción": "Antihistamínico para el alivio de síntomas alérgicos como estornudos, picazón, y secreción nasal.",
+      "Categoría": "Antihistamínico",
+      "Composición": "Cetirizina",
+      "Concentración": "10 mg",
+      "Presentación": "Tabletas",
+      "Dosis recomendada": "1 tableta al día.",
+      "Precio de venta": "$8.00",
+      "Stock disponible": "250 unidades",
+      "Fecha de caducidad": "22/11/2024",
+      "ID del Proveedor": "PROV004",
+      "Código de barras": "6547893214560",
+      "Requiere receta médica": "No"
+    },
+    {
+      "id": "5",
+      "Nombre del medicamento": "azol 20mg",
+      "Descripción": "Inhibidor de la bomba de protones utilizado para tratar el reflujo gastroesofágico y úlceras gástricas.",
+      "Categoría": "Antiulceroso",
+      "Composición": "Omeprazol",
+      "Concentración": "20 mg",
+      "Presentación": "Cápsulas",
+      "Dosis recomendada": "1 cápsula al día antes del desayuno durante 4-8 semanas.",
+      "Precio de venta": "$10.00",
+      "Stock disponible": "100 unidades",
+      "Fecha de caducidad": "05/05/2025",
+      "ID del Proveedor": "PROV005",
+      "Código de barras": "7894561230789",
+      "Requiere receta médica": "Sí"
+    }
+  ],
+  "proveedor": [
+    {
+      "ID del Proveedor": "1",
+      "Nombre de la empresa": "Farmacéuticos Globales S.A.",
+      "Nombre del contacto": "Juan Pérez",
+      "Teléfono": "+52 55 1234 5678",
+      "Correo electrónico": "juan.perez@farmaceuticosglobales.com",
+      "Dirección": "Av. Ilustres 1234",
+      "Lista de medicamentos suministrados": "Paracetamol 500mg, Ibuprofeno 200mg, Omeprazol 20mg",
+      "Condiciones de pago": "Pago a 30 días, transferencia bancaria"
+    },
+    {
+      "ID del Proveedor": "2",
+      "Nombre de la empresa": "Distribuidora Médica S.A.",
+      "Nombre del contacto": "María García",
+      "Teléfono": "+52 55 9876 5432",
+      "Correo electrónico": "maria.garcia@distribuidoramedica.com",
+      "Dirección": "Calle Reforma 456",
+      "Lista de medicamentos suministrados": "Amoxicilina 500mg, Cefalexina 250mg, Azitromicina 500mg",
+      "Condiciones de pago": "Pago a 45 días, cheque o transferencia bancaria"
+    }
+  ],
+  "paciente": [
+    {
+      "id": "2",
+      "nombre": "Carlos Eduardo Martínez",
+      "nacimiento": "22/07/1990",
+      "telefono": "+52 81 3456 7890",
+      "correo": "carlos.martinez@hotmail.com",
+      "direccion": "Av. Revolución 456"
+    },
+    {
+      "id": "3",
+      "nombre": "Lucía Fernández Gómez",
+      "nacimiento": "10/11/1978",
+      "telefono": "+52 33 4567 8901",
+      "correo": "lucia.fernandez@yahoo.com",
+      "direccion": "Calle Libertad 789"
+    },
+    {
+      "id": "4",
+      "nombre": "José Arando",
+      "nacimiento": "05/05/1982",
+      "telefono": "+52 55 5678 9012",
+      "correo": "jose.rodriguez@outlook.com",
+      "direccion": "Av. Sur 10",
+      "fecha": "2024-07-31"
+    },
+    {
+      "id": "5",
+      "nombre": "María Elena Sánchez",
+      "nacimiento": "28/02/1995",
+      "telefono": "+52 81 6789 0123",
+      "correo": "maria.sanchez@gmail.com",
+      "direccion": "Av. Alemán 234"
+    }
+  ],
+  "venta": [
+    {
+      "ID de la Venta": "1",
+      "ID del Cliente": "CLI001",
+      "Fecha y hora de la venta": "2024-08-15 14:30",
+      "Lista de medicamentos vendidos": "Paracetamol 500mg, 2 cajas, Precio unitario: 3.50, Subtotal: 7.00",
+      "Monto total": "12.00",
+      "Método de pago": "Tarjeta",
+      "ID Cajero responsable": "6",
+      "ID del medicamento": "1"
+    },
+    {
+      "ID de la Venta": "2",
+      "ID del Cliente": "CLI002",
+      "Fecha y hora de la venta": "2024-08-15 10:45",
+      "Lista de medicamentos vendidos": "Amoxicilina 500mg, 1 caja, Precio unitario: 12.00, Subtotal: 12.00",
+      "Monto total": "12.00",
+      "Método de pago": "Efectivo",
+      "ID Cajero responsable": "5",
+      "ID del medicamento": "2"
+    },
+    {
+      "ID de la Venta": "3",
+      "ID del Cliente": "CLI003",
+      "Fecha y hora de la venta": "2024-08-14 16:20",
+      "Lista de medicamentos vendidos": "Cetirizina 10mg, 3 cajas, Precio unitario: 8.00, Subtotal: 24.00; Loratadina 10mg, 2 cajas, Precio unitario: 7.50, Subtotal: 15.00",
+      "Monto total": "39.00",
+      "Método de pago": "Transferencia",
+      "ID Cajero responsable": "6",
+      "ID del medicamento": "3"
+    }
+  ],
+  "inventario": [
+    {
+      "ID del Inventario": "1",
+      "ID del Medicamento": "1",
+      "Stock inicial": "500 unidades",
+      "Entradas": "200 unidades",
+      "Salidas": "150 unidades",
+      "Stock actual": "550 unidades",
+      "Fecha de actualización": "2024-08-15",
+      "Ubicación en el almacén": "Estante A3",
+      "Fecha de última auditoría": "2024-08-01"
+    },
+    {
+      "ID del Inventario": "2",
+      "ID del Medicamento": "2",
+      "Stock inicial": "300 unidades",
+      "Entradas": "100 unidades",
+      "Salidas": "80 unidades",
+      "Stock actual": "320 unidades",
+      "Fecha de actualización": "2024-08-14",
+      "Ubicación en el almacén": "Estante B2",
+      "Fecha de última auditoría": "2024-07-30"
+    },
+    {
+      "ID del Inventario": "3",
+      "ID del Medicamento": "3",
+      "Stock inicial": "1000 unidades",
+      "Entradas": "500 unidades",
+      "Salidas": "600 unidades",
+      "Stock actual": "900 unidades",
+      "Fecha de actualización": "2024-08-13",
+      "Ubicación en el almacén": "Estante C1",
+      "Fecha de última auditoría": "2024-08-05"
+    },
+    {
+      "ID del Inventario": "4S",
+      "ID del Medicamento": "4",
+      "Stock inicial": "200 unidades",
+      "Entradas": "100 unidades",
+      "Salidas": "50 unidades",
+      "Stock actual": "250 unidades",
+      "Fecha de actualización": "2024-08-12",
+      "Ubicación en el almacén": "Estante D4",
+      "Fecha de última auditoría": "2024-07-25"
+    }
+  ],
+  "usuario": [
+    {
+      "id": "1",
+      "name": "Pamela",
+      "email": "pamela@gmail.com",
+      "password": "123456",
+      "role": "administrador",
+      "telefono": "72440435",
+      "horario laboral": "08:30 a 17:00",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "2",
+      "name": "Rosa",
+      "email": "rosa@example.com",
+      "password": "123456",
+      "role": "farmaceutico",
+      "telefono": "63234567",
+      "horario laboral": "08:30 a 12:30",
+      "token": "sdffalsdf82weids8dfasdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "3",
+      "name": "Carmen",
+      "email": "carmen@example.com",
+      "password": "123456",
+      "role": "farmaceutico",
+      "telefono": "77894567",
+      "horario laboral": "12:30 a 16:30",
+      "token": "s8dfalsdf82fsds8dfasdfsd9f0w9sdfs"
+    },
+    {
+      "id": "4",
+      "name": "Raul",
+      "email": "raul@example.com",
+      "password": "123456",
+      "role": "farmaceutico",
+      "telefono": "77895645",
+      "horario laboral": "16:30 a 20:30",
+      "token": "asdfasdfsf82weids8dfasdfsd9f0fsi8s"
+    },
+    {
+      "id": "5",
+      "name": "Mario",
+      "email": "mario@example.com",
+      "password": "123456",
+      "role": "cajero",
+      "telefono": "65456789",
+      "horario laboral": "08:30 a 14:30",
+      "token": "2e34sef82weids8dfasdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "6",
+      "name": "Liliana",
+      "email": "lili@example.com",
+      "password": "123456",
+      "role": "cajero",
+      "telefono": "75432311",
+      "horario laboral": "14:30 a 20:30",
+      "token": "2e34sef82weids8dfasdfsd9f0w9exdi8s"
+    }
+  ]
+}
